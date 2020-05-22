@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.day {
+  display: auto;
+  width: 100%;
+  height: 30px;
+  background-color: olive;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.time {
+  display: auto;
+  width: auto;
+  height: 100px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: medium;
+  border: burlywood;
+  border-style: solid;
+  border-left: none;
+  border-right: none;
+}
