@@ -20,21 +20,26 @@ body {
   display: auto;
   width: 100%;
   height: 100px;
-  background-color: whitesmoke;
   text-align: center;
   font-size: medium;
-  border: burlywood;
-  border-style: solid;
-  border-left: none;
-  border-right: none;
 }
 
-.addEvent {
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  border-width: thick;
+}
+
+label {
   display: auto;
+  height: 100%;
   width: 100%;
-  height: 150px;
-  background-color: cadetblue;
-  text-align: center;
-  font-weight: bold;
-  font-size: large;
+  background-color: orange;
+}
+
+textarea {
+  padding: 20px;
+  border-color: orange;
+  background-color: white;
 }

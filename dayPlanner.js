@@ -24,7 +24,14 @@ $(document).ready(function () {
   var date = new Date();
   console.log(date);
 
-  $(".day").text(date);
+  var dateOptions = {
+    weekday: "long",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  };
+
+  $(".day").text(date.toLocaleString("en-US", dateOptions));
 
   //color coded to indicate whether it is in the past, present, or future
   $(".time").each(function (currentTimeSlotIndex) {
